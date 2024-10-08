@@ -1,4 +1,45 @@
 {
+  "MGVerilog-pruned": {
+    "file_name": "/home/nano01/a/sharm418/mlsys/pruned-dataset/MGVerilog-dataset-pruned.json",
+    "formatting": "sharegpt",
+    "columns": {
+        "messages": "conversations"
+    }
+  },
+  "RTLCoder-pruned": {
+    "file_name": "/home/nano01/a/sharm418/mlsys/pruned-dataset/RTLCoder-dataset-pruned.json",
+    "formatting": "sharegpt",
+    "columns": {
+        "messages": "conversations"
+    }
+  },
+  "verilog-dataset-test": {
+    "file_name": "MG-dataset-for-feedback.json",
+    "formatting": "sharegpt",
+    "columns": {
+        "messages": "conversations"
+    }
+   },
+  "MG-Verilog-dataset": {
+    "file_name": "MG-dataset-full.json",
+    "formatting": "sharegpt",
+    "columns": {
+        "messages": "conversations"
+    }
+  },
+  "CodeFeedback": {
+    "file_name": "Code-Feedback.jsonl",
+    "formatting": "sharegpt",
+    "columns": {
+        "messages":  "messages"
+    },
+    "tags": {
+        "role_tag": "role",
+        "content_tag": "content",
+        "user_tag": "user",
+        "assistant_tag": "assistant"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
